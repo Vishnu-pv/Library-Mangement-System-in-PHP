@@ -1,0 +1,92 @@
+body{
+	font-family: Helvetica;
+	margin: 0;
+	background-image: url("indexWall.jpg");
+	height:100%; 
+	background-position:center; 
+	background-repeat:no-repeat; 
+	background-size:cover;"
+
+	
+}
+
+.heading{
+	color: #0f0f0f;
+	opacity: 0.8;
+	font-family: Helvetica;
+	font-size: 40;
+	margin-top: 180px;
+	color:#5B2D22;
+}
+
+.title-text{
+	/*margin-top: 20px;*/
+	display: flex;
+	font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  	color: #2b2b2b;
+  	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+
+
+	justify-content: center;
+
+}
+
+.input-form{
+
+	opacity: 0.9;
+	color:white;
+	font-weight: bold;
+	border: 3px solid white;
+	border-radius: 5px;
+	display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    margin-top: 23px;
+	padding: 5px;	
+	background-color: #5B2D22;
+	-webkit-box-shadow: 0px 4px 24px 8px rgba(150,150,150,1);
+	-moz-box-shadow: 0px 4px 24px 8px rgba(150,150,150,1);
+	box-shadow: 0px 4px 24px 8px rgba(150,150,150,1);
+}
+
+.log{
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.input-form .input-item{
+	   	
+	padding: 14px;
+    text-align: center;
+    /*color:white;*/
+}
+
+#i1,#i2,#i3,#i4{
+
+	padding: 6px;
+	 border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+#i4{
+	background-color: green;
+	color:white;
+}
+
+#i4:hover{
+	background-color: silver;
+	color:black;
+}
+
+#i3:hover{
+	background-color: silver;
+	color:black;
+}

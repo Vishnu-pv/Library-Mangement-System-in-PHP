@@ -1,0 +1,175 @@
+html,body {
+       margin: 0;
+
+}
+
+
+header {
+    background-color: snow;
+    height: 66px;
+    font-family: Helvetica;
+    display: flex;
+}
+
+header .header-left {
+
+    flex: 1.5;
+    text-align: center;
+}
+
+header .header-right {
+    flex: 8.5;
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(to right, #F0F4FF, #4e67eb);
+}
+
+header .header-right .side-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+header .header-right .side-top p {
+    align-self: auto;
+}
+
+.top-left-span{
+    color : darkgray;
+}
+
+.admin-wrapper {
+    display: flex;
+    height: calc(100%-66px);
+    /*    border: 1px solid yellow;*/
+   height: 92%;
+}
+
+.admin-wrapper .left-tab {
+    flex: 1.5;
+    background-color: #C3BCE2;
+}
+
+.admin-wrapper .admin-content {
+    
+    display: flex;
+    flex: 8.5;
+
+
+}
+.admin-wrapper .admin-content .dash{
+    
+    display: flex;
+    margin-left: 150px;
+    width: 1000px;
+ 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+
+.admin-wrapper .admin-content .dash .content{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 60px;
+    height:60px;
+    text-align: left;
+    background: #31488E;
+    color:black;
+    border-radius: 5px;
+    font-size: 15px;
+    color:white;
+
+ 
+}
+
+
+
+.admin-wrapper .left-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #e4eaec;
+}
+
+.admin-wrapper .left-tab ul li a {
+    font-family: Helvetica;
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.admin-wrapper .left-tab ul li a:visited {
+    color: black;
+}
+
+.admin-wrapper .left-tab ul li a:hover {
+    background: #0bb2d4;
+}
+
+
+.dash-user{
+    display: block;
+    background-color: snow;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 15px;
+
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 0px 17px 4px rgba(52,5,163,1);
+    -moz-box-shadow: 0px 0px 17px 4px rgba(52,5,163,1);
+     box-shadow: 0px 0px 17px 4px rgba(52,5,163,1);
+}
+
+
+.dash-user #data{
+    margin-left: 20px;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table{
+    overflow: scroll;
+}
+
+.side-top a{
+    text-decoration: none;
+    border:1px solid red;
+    color:white;
+    padding: 6px;
+    background-color: red;
+    border-radius: 5px;
+
+}
+
+.side-top a:hover{
+    background-color: silver;
+    color:black;
+}
+
+.changepass{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.changepass .child{
+    padding: 10px;
+}
+
+.changepass .child1{
+    margin-left: 90px;
+}
